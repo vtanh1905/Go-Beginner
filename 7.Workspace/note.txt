@@ -1,0 +1,4 @@
+Trong TH go install
++ nếu là file main.go thì nó sẽ build ra file thực thi trong thư mục bin
++ nếu không là file main.go thì nó sẽ build ra file.a trong thư mục pkg
+
