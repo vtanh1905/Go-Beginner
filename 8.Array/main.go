@@ -51,6 +51,5 @@ func main() {
 		{1, 2},
 		{1, 2},
 	}
-
 	fmt.Println(matrix)
 }
