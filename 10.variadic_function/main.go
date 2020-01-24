@@ -30,6 +30,6 @@ func main() {
 			slice := []int{1, 2, 3, 4, 5, 6}
 			Xuat(slice...)
 		=> Khi nào 1 temp_slice = slice
-		Đồng nghĩ với viec 2 slice có chung 1 preference(đỉa chỉ)
+		Đồng nghĩ với viec 2 slice có chung 1 refernce(đỉa chỉ)
 	*/
 }
