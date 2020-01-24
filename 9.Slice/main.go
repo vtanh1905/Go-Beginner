@@ -53,4 +53,5 @@ func main() {
 	dest := make([]int, 2) // 1 cách khac tao slice
 	copy(dest, src)
 	fmt.Println(dest)
+
 }
