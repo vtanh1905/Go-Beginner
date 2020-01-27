@@ -20,6 +20,19 @@ func main() {
 		fmt.Println(map1)
 	}
 
+	/*
+		Note: null khác nil thế nào?
+		Câu trả lời dài: Cả 2 đều xuất phát từ tiếng Latinh. null là nullus, nil là nihil.
+		Tiếng Việt dịch là "không có gì cả". Tiếng Anh dịch là "no" và "nothing".
+
+		Câu trả lời ngắn: nil dùng để chỉ việc biến chưa có giá trị, (chưa được khởi tạo).
+
+		Câu trả lời thêm: Xem mã nguồn của các implementation của các ngôn ngữ động,
+		để ý sẽ thấy các biến có cấu trúc hơi phức tạp trở lên đều được gói bằng con trỏ,
+		chỉ khác là con trỏ này được tự động quản lí.
+		Do đó khái niệm con trỏ thực ra chỉ bị dấu đi để lập trình viên đỡ điên đầu, tránh mắc lỗi liên quan đến bộ nhớ.
+	*/
+
 	// Khai bao voi gia tri khoi tao map
 	map3 := map[string]int{
 		"key1": 1,
