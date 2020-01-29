@@ -10,6 +10,16 @@
 
 package main
 
-func main() {
+import (
+	book "book"
+	"fmt"
+)
 
+func main() {
+	book1 := book.Book{
+		id:   1,
+		name: "Toán 1",
+	}
+
+	fmt.Println(book1)
 }
